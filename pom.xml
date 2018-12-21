@@ -282,7 +282,8 @@
                 <version>2.19.1</version>
                 <configuration>
                     <includes>
-                        <testFailureIgnore>true</testFailureIgnore>
+                        <!-- <testFailureIgnore>true</testFailureIgnore> -->
+                          <include>**/*Tests.java</include>     
                     </includes>
                 </configuration>
             </plugin>
