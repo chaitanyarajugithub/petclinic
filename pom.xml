@@ -283,7 +283,8 @@
                 <configuration>
                     <includes>
                         <!-- <testFailureIgnore>true</testFailureIgnore> -->
-                          <include>**/*Tests.java</include>     
+                          <include>**/*Tests.java</include> 
+                             <redirectTestOutputToFile>true</redirectTestOutputToFile>
                     </includes>
                 </configuration>
             </plugin>
