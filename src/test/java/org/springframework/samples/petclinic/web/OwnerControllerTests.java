@@ -100,7 +100,7 @@ public class OwnerControllerTests {
     }
     
 
-  /*  @Test
+    @Test
     public void testProcessFindFormSuccess() throws Exception {
         given(this.clinicService.findOwnerByLastName("")).willReturn(Lists.newArrayList(george, new Owner()));
 
@@ -108,7 +108,7 @@ public class OwnerControllerTests {
             .andExpect(status().isOk())
             .andExpect(view().name("owners/ownersList"));
     }
-*/    
+    
 
     @Test
     public void testProcessFindFormByLastName() throws Exception {
